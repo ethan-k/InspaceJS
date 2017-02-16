@@ -19,12 +19,12 @@ Common
 ## AMD (Asynchronous Module Design )
 
 
-
 다년간 CommonJS 와 AMD 두 
 
 ## 그리고 ES6 Module
 
 
+ES6 모듈 시스템의 등장
 
 
 
