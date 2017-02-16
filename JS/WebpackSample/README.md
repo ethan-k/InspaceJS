@@ -40,3 +40,31 @@ context 폴더는 베이스 폴더의 개념으로 webpack이 소스파일들을
 │   ├── components
 │   │   ├── print.js
 ```
+
+## ES6 사용
+
+```
+npm install --save babel-loader babel-core babel-preset-es2015
+```
+
+```javascript
+module.exports = {
+  entry: './entry.js',
+  output: {
+    path: __dirname,
+    filename: 'src/js/dist/bundle.js'
+  },
+  module: {
+       loaders: [
+            {
+                test: /\.js$/,
+                loader: 'babel',
+                exclude: /(node_modules|bower_components)/,
+                query: {
+                    presets: ['es2015']
+                }
+            }
+       ]
+  }
+};
+```

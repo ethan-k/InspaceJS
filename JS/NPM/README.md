@@ -1,16 +1,16 @@
 # NPM 사용 설명문
 
 
-## npm 이란? 
+## npm 이란?
 Node Package Modules
 
 npm init 으로 package.json 파일 생성
 
-![Image of Yaktocat](img/npm_init.png)
+![Image of NPM Init](img/npm_init.png)
 
 #### package.json 에 미리 정의된 파일 설치
 
-npm install 
+npm install
 
 #### npm 에 전역 의존성 추가
 
@@ -25,9 +25,8 @@ npm install
         npm install 패지이름 --save
 
         ex) npm install jquery --save
-    
+
 
 2. 개발용 의존성 추가시
 
         npm install 패키지이름 --save-dev
-
