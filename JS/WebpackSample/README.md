@@ -42,8 +42,11 @@ context 폴더는 베이스 폴더의 개념으로 webpack이 소스파일들을
 ```
 
 ## ES6 사용
-
+ES6를 사용하기 위해서는 ES6를 ES5 이하로 바꿔주는 transpile 작업을 해주어야한다.
+대표적으로 babel이 사용되니 babel을 이용한 설정을 적용한다.
 ```
+// es6 관련 babel 로더 설치
+// es6 관련에서 설정들이 미리되어있는 babel-preset-es2015도 설치해준다.
 npm install --save babel-loader babel-core babel-preset-es2015
 ```
 
