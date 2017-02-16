@@ -6,7 +6,7 @@ Node Package Modules
 
 npm init 으로 package.json 파일 생성
 
-![Image of Yaktocat](./img/npm_init.png)
+![Image of Yaktocat](img/npm_init.png)
 
 #### package.json 에 미리 정의된 파일 설치
 
